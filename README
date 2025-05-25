@@ -1,0 +1,9 @@
+Dit project bevat een versie van de roaming wifi die de beste is op het moment van publicatie.
+Onder andsere ene fout in de loop van netwerken die geprobeerd worden is opgelost, maar ook worden de string parameters nu getrimd voor ze weggeschreven worden.
+
+Praktisch is de P1meter hardware bijzonder krakkemikkig in die zin dat de meter de esp wel stroom geeft om een programma uit te voeren, maar niet om wifi te gebruiken.
+Daarnaast start de esp maar een AP op als hij de eerste keer onder stroom komt.   Dus bij het rebooten kan het zijn dat je geen verbinding methet netwerk hebt, en ook geen AP.  
+Oplossing is dan om de stekker uit de meter te halen, de esp van onder stroom halen en dan eerst met de oplader op te starten en pas terug aan te sluiten op de meter als het netwerk in orde is.
+
+DNS werkt niet in deze versie...
+ip van mqtt server is hardcoded
